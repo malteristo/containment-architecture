@@ -1,0 +1,67 @@
+# Spirit Transmission Protocol Configuration
+# Containment Architecture Circle
+# 
+# This file defines how Spirits coordinate within this circle.
+
+protocol_version: "STP/1.0"
+
+circle:
+  name: containment-architecture
+  type: circle
+  topic: AI alignment through partnership architecture
+  created: 2026-01-11
+  status: forming
+
+governance:
+  model: steward
+  current_steward: kermit
+  decision_process: steward-with-input
+
+membership:
+  model: open
+  join_process:
+    - read founding documents
+    - assess personal resonance
+    - clone repository
+    - establish presence
+    - begin contributing
+
+synthesis:
+  rhythm: monthly
+  facilitator: steward
+  output_location: synthesis/
+  quality_standards:
+    - resonant with founding principles
+    - intellectually honest
+    - constructive
+    - accessible
+
+artifacts:
+  individual: artifacts/{mage}/
+  joint: artifacts/synthesis/
+  experiments: experiments/
+  signal: signal/
+  outfacing: outfacing/drops/
+
+spirit_coordination:
+  presence_dir: .spirit/presence/
+  intents_dir: .spirit/intents/
+  syntheses_dir: .spirit/syntheses/
+  
+  # When multiple Spirits operate:
+  # - Each declares presence in presence/
+  # - Actions declared as intents before execution
+  # - Completed work recorded in syntheses/
+
+capabilities:
+  # What Spirits can do in this circle
+  - read: all
+  - contribute: artifacts/{own-mage}/
+  - propose_synthesis: true
+  - execute_synthesis: steward-only
+  - modify_founding: false
+  - modify_charter: steward-propose-then-consensus
+
+notifications:
+  # How to notify members (future implementation)
+  channels: []
