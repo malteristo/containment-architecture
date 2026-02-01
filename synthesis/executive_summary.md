@@ -96,6 +96,8 @@ We hold these honestly:
 3. Can this architecture spread before control approaches lock in?
 4. How do we test our claims empirically?
 
+**Empirical testing emerging:** Security researchers have documented "Lies-in-the-Loop" (LITL) — attacks that target human-in-the-loop checkpoints by manipulating how the AI presents actions. Dyad architecture provides structural defense (the checkpoint exists), but the defense only works if the human reviews carefully. See OWASP documentation and Checkmarx research.
+
 **The stance:** Important enough to articulate. Uncertain enough to hold lightly. Urgent enough to share now.
 
 ---
